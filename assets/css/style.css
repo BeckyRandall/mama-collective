@@ -1,7 +1,106 @@
+/*--------------Nav Bar------------------*/
 .nav-container{
     width: 100vw;
 }
 
-.nav-item {
-    border: 2px black;
+/*--------------Footer------------------*/
+
+footer {
+    height: 130px;
+}
+
+.socials {
+    text-align: center;
+  }
+  
+  .socials li {
+    display: inline-block;
+  }
+
+  .socials i {
+    color: #3e2818;
+    font-size: 175%;
+    margin: 1%;
+    padding: 5%;
+  }
+
+  .mailinglist {
+    text-align: center;
+  }
+
+  #facebook-position {
+    float: left;
+  }
+
+  #pinterest-position {
+    float: right;
+    padding-right: 35px;
+  }
+
+  /*--------------Hero Image and Title------------------*/
+
+  #hero-image {
+      height: 50vh;
+      width: 100%;
+      background-image: url(../images/home-page-hero.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: hsla(0, 100%, 90%, 0.3);
+      position: relative;
+  }
+
+  .hero-text {
+    width: 400px;
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+
+  /*--------------?????------------------*/
+
+  .the-container {
+    border: 2px solid black;
+  }
+
+  .the-row {
+    border: 2px solid red;
+  }
+
+  .hero-row {
+    height: 50vh;
+    background-image: url(../images/home-page-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  /*--------------Icon Nav------------------*/
+
+.icon-nav-position {
+  padding: 30px;
+}
+
+.icon-nav-decor {
+  color: #3e2818;
+}
+
+a[href]:hover {
+  color: #774e2a;
+  text-decoration: none;
+}
+
+ /*--------------Meet Page------------------*/
+
+#hero-image-meet {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../images/meet-hike.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  position: relative;
 }
