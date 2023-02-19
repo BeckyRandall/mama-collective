@@ -7,6 +7,7 @@
 
 footer {
     height: 130px;
+    background-color: #DACBB4;
 }
 
 .socials {
@@ -26,6 +27,8 @@ footer {
 
   .mailinglist {
     text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
   }
 
   #facebook-position {
@@ -58,18 +61,6 @@ footer {
     transform: translate(-50%,-50%);
   }
 
-
-
-  /*--------------?????------------------*/
-
-  .the-container {
-    border: 2px solid black;
-  }
-
-  .the-row {
-    border: 2px solid red;
-  }
-
   .hero-row {
     height: 50vh;
     background-image: url(../images/home-page-hero.jpg);
@@ -99,6 +90,39 @@ a[href]:hover {
   height: 50vh;
   width: 100%;
   background-image: url(../images/meet-hike.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  position: relative;
+}
+
+.container-spacing {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fb-icon-styling {
+  text-align: center;
+  font-size: 60px;
+}
+ /*--------------Get Help Page------------------*/
+
+#hero-image-gethelp {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../images/gethelp-page-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  position: relative;
+}
+
+ /*--------------Connect Page------------------*/
+
+#hero-image-connect {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../images/connect-page-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsla(0, 100%, 90%, 0.3);
