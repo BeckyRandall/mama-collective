@@ -1,75 +1,80 @@
+/*--------------Fonts------------------*/
+
+header {
+  font-family: 'Gloock', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Gloock', serif;
+}
+
+p {
+  font-family: 'Cabin', sans-serif;
+}
+
+.font-gloock {
+  font-family: 'Gloock', serif;
+}
+
+.font-cabin {
+  font-family: 'Cabin', sans-serif;
+}
+
 /*--------------Nav Bar------------------*/
-.nav-container{
-    width: 100vw;
+.nav-container {
+  width: 100vw;
 }
 
-/*--------------Footer------------------*/
-
-footer {
-    height: 130px;
-    background-color: #DACBB4;
+.navbar-title {
+  color: #3e2818 !important;
 }
 
-.socials {
-    text-align: center;
-  }
-  
-  .socials li {
-    display: inline-block;
-  }
 
-  .socials i {
-    color: #3e2818;
-    font-size: 175%;
-    margin: 1%;
-    padding: 5%;
+@media (min-width: 768px) {
+  .navbar-title {
+    display: none;
   }
+}
 
-  .mailinglist {
-    text-align: center;
-    margin-bottom: 30px;
-    padding-top: 30px;
-  }
 
-  #facebook-position {
-    float: left;
-  }
+/*--------------Hero Image and Title------------------*/
 
-  #pinterest-position {
-    float: right;
-    padding-right: 35px;
-  }
+#hero-image {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../images/home-page-hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  position: relative;
+}
 
-  /*--------------Hero Image and Title------------------*/
+.hero-text {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  #hero-image {
-      height: 50vh;
-      width: 100%;
-      background-image: url(../images/home-page-hero.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: hsla(0, 100%, 90%, 0.3);
-      position: relative;
-  }
+.hero-row {
+  height: 50vh;
+  background-image: url(../images/home-page-hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-  .hero-text {
-    width: 400px;
-    text-align: center;
-    position:absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
+h1 {
+  color: #DACBB4;
+}
 
-  .hero-row {
-    height: 50vh;
-    background-image: url(../images/home-page-hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;      
-    background-color: rgba(0,0,0,0.5);
-  }
-
-  /*--------------Icon Nav------------------*/
+/*--------------Icon Nav------------------*/
 
 .icon-nav-position {
   padding: 30px;
@@ -84,15 +89,14 @@ a[href]:hover {
   text-decoration: none;
 }
 
- /*--------------Meet Page------------------*/
+/*--------------Meet Page------------------*/
 
 #hero-image-meet {
   height: 50vh;
   width: 100%;
-  background-image: url(../images/meet-hike.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)), url(../images/meet-hike.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: hsla(0, 100%, 90%, 0.3);
   position: relative;
 }
 
@@ -105,26 +109,112 @@ a[href]:hover {
   text-align: center;
   font-size: 60px;
 }
- /*--------------Get Help Page------------------*/
+
+
+/*--------------Get Help Page------------------*/
 
 #hero-image-gethelp {
   height: 50vh;
   width: 100%;
-  background-image: url(../images/gethelp-page-hero.jpg);
+  background-image: url(../images/get-help-hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  position: relative;
+  opacity: 1.5;
+}
+
+@media (max-width: 768px) {
+  .get-help-logo {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
+.help-btn-styling {
+  border: none;
+  border-radius: 20px;
+  background-color: #3e2818;
+  color: #DACBB4;
+}
+
+/*--------------Connect Page------------------*/
+
+#hero-image-connect {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.40)), url(../images/connect-page-hero.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsla(0, 100%, 90%, 0.3);
   position: relative;
 }
 
- /*--------------Connect Page------------------*/
+.form-styling {
+  margin: 30px;
+}
 
-#hero-image-connect {
-  height: 50vh;
-  width: 100%;
-  background-image: url(../images/connect-page-hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: hsla(0, 100%, 90%, 0.3);
-  position: relative;
+form button {
+  border: none;
+  border-radius: 20px;
+  background-color: #3e2818;
+  color: #DACBB4;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*--------------Mama Manifesto Page------------------*/
+.video-container {
+  padding: 30px;
+}
+
+/*--------------Footer------------------*/
+
+footer {
+  height: 170px;
+  background-color: #DACBB4;
+  font-family: 'Cabin', sans-serif;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials li {
+  display: inline-block;
+}
+
+.socials i {
+  color: #3e2818;
+  font-size: 175%;
+  margin: 1%;
+  padding: 5%;
+}
+
+.mailinglist {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+#facebook-position {
+  float: left;
+}
+
+#pinterest-position {
+  float: right;
+  padding-right: 35px;
+}
+
+footer button {
+  border: none;
+  border-radius: 20px;
+  background-color: #3e2818;
+  color: #DACBB4;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
