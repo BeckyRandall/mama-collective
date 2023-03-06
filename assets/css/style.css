@@ -26,7 +26,7 @@ p {
 
 /*--------------Nav Bar------------------*/
 .nav-container {
-  width: 100vw;
+  width: 100%;
 }
 
 .navbar-title {
