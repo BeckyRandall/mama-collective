@@ -19,7 +19,7 @@
     <header>
         <!-- Nav bar and burger menu -->
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand navbar-title" href="#">The Mama Collective</a>
+            <a class="navbar-brand navbar-title" href="index.html">The Mama Collective</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -58,17 +58,16 @@
     <!-- Contact Form -->
     <form action="thankyou.html" class="form-styling">
         <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
-                required>
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlInput1">Tel.</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number" required>
+            <label for="telephone">Tel.</label>
+            <input type="text" class="form-control" id="telephone" placeholder="Phone Number" required>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlSelect1">What's your enquiry?</label>
-            <select class="form-control" id="exampleFormControlSelect1" required>
+            <label for="enquiry-type">What's your enquiry?</label>
+            <select class="form-control" id="enquiry-type" optional>
                 <option>I'd like to join a meeting...</option>
                 <option>I'd like to book a cabin retreat...</option>
                 <option>I need help...</option>
@@ -77,8 +76,8 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Your Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us more..."
+            <label for="message-content">Your Message</label>
+            <textarea class="form-control" id="messagecontent" rows="3" placeholder="Tell us more..."
                 required></textarea>
         </div>
         <button type="submit">Submit</button>
@@ -91,7 +90,8 @@
                 <div class="col-12">
                     <form action="#" class="mailinglist">
                         <label for="email">Sign up for our mailing list!</label>
-                        <input id="email" type="email" name="email_address" required class="text-input">
+                        <input id="email" type="email" name="email_address" required class="text-input"
+                            placeholder="Enter your email!">
                         <button type="submit">Submit</button>
                     </form>
                 </div>
