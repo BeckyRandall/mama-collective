@@ -54,7 +54,7 @@ p {
 }
 
 .hero-text {
-  width: 100%;
+  max-width: 90vw;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -110,18 +110,27 @@ a[href]:hover {
   font-size: 60px;
 }
 
+.meet-card{
+  margin:10px;
+}
+
 
 /*--------------Get Help Page------------------*/
 
 #hero-image-gethelp {
   height: 50vh;
   width: 100%;
-  background-image: url(../images/get-help-hero.webp);
+  background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/get-help-hero.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsla(0, 100%, 90%, 0.3);
   position: relative;
   opacity: 1.5;
+}
+
+.get-help-logo {
+  max-width: 60%;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -137,6 +146,11 @@ a[href]:hover {
   background-color: #3e2818;
   color: #DACBB4;
 }
+
+.help-card{
+  margin:10px;
+}
+
 
 /*--------------Connect Page------------------*/
 
@@ -180,6 +194,7 @@ footer {
 
 .socials {
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .socials li {
