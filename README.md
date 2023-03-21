@@ -27,7 +27,7 @@ Users would like to obtain information quickly and efficiently given the limited
 
 As a First Time Visitor, I want users to easily understand how to receive support.
 
-As a First Time Visitor, I want users to be able to understand the services offered by the organised.
+As a First Time Visitor, I want users to be able to understand the services offered by the organisation.
 
 As a First Time Visitor, I want users to navigate towards the organisations social media pages.
 
@@ -54,23 +54,21 @@ As a Frequent Visitor to the site, I want users to feel able to rely on the bran
 ## Colour Scheme ##
 The four main colours are Akora, Black Marlin, Dallas and Shadow
 
-<screenshot>
+![color scheme visual](assets/readme/features/color-guide.jpeg "color-guide.jpeg")
 
 ## Typography ##
 
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+The 'Gloock' and 'Cabin' font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 'Gloock' and 'Cabin' are both clean fonts used frequently in website design. They are appropriate for the brand guidelines and clear to read in all screen sizes.
 
 ## Imagery ##
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+Imagery is important to this client. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
 ## Wireframes ##
-Home Page - <screenshot>
 
-Meet Page- <screenshot>
+Using Balsamiq I created wireframes for the main pages I intended to build to give the client an idea of the layout and formatting. This also enabled me to have an agreed design to work towards. Here are some examples of my wireframes and how they look through Balsamiq
 
-Connect Page - <screenshot>
-
-Get Help Page - <screenshot>
+![wireframe example](assets/readme/features/home-page-wireframe.png "home page")
+![wireframe example](assets/readme/features/connect-page-wireframe.png "connect page")
 
 
 # Features #
@@ -79,51 +77,50 @@ Get Help Page - <screenshot>
 
 The navigation bar will feature on each and every page of the site and read from left to right starting with the organisations logo to reinforce brand identity and ideally authority. The nav bar will provide user friendly navigation and offer the same order of links on each page starting with the home to be displayed to the right of the logo. It will allow the user to access all pages from wherever they are in the site without using their browsers ‘back’ button.
 
-<screenshot>
+![nav bar](assets/readme/features/nav-bar-burger-menujpeg "index.html")
 
 ## Footer ##
 
 The footer section will include both a call to action for users to sign up for a mailing list (a direct objective for the client is to build an audience) and direct links to the organisations social media pages. The social media links utilise icons to make the process of navigating towards the respective pages easier and therefore encouraging more follows (once again fulfilling the clients objective to build an audience). 
 
-<screenshot>
 
 ## Icon Nav ##
 The landing page will feature a quadrant of four links to other important pages in the site. Another of the clients key objectives is to successfully provide parents in need with information to find support, creating a visual led navigation section on the home page helps to fulfil this objective and supports the user story that parents are looking for an easy way to gather information with limited time and concentration.
 
-<screenshot>
+![icon navigation](assets/readme/features/home-page-nav.png "icon-navigation")
 
 
 ## Contact Information ##
 
-I have opted for a simple form for the contact page (aka Connect) to minimise the amount of actions a user has too take to make contact. This fulfils the clients objective of providing support to a user demographic that may have limited resources to copy out a number and ring or send an email. I have included a drop-down menu for users to provide the client with more information about their enquiry which will subsequently categories the priority and objective of the message. 
+I have opted for a simple form for the contact page (aka Connect) to minimise the amount of actions a user has too take to make contact. This fulfils the clients objective of providing support to a user demographic that may have limited resources to copy out a number and ring or send an email. I have included a drop-down menu for users to provide the client with more information about their enquiry which will subsequently categorise the priority and objective of the message. 
 
-<screenshot>
+![contact form](assets/readme/features/contact-form.png "contact-form")
 
 
 ## Group Information ##
 
 The ‘Meet’ page provides a user with four different options for support via the Mama Collective Organisation, providing both a visual and brief copy for maximum engagement. Copy is to the point and centres around the main details of each group to give a burst of detail. 
 
-<screenshot>
+![group information](assets/readme/features/meeting-information.png "meeting-information")
 
 
 ## Helpful Resources ##
 
 A ‘Get Help’ page has been included in the site to provide immediate information for parents that may require more urgent need than the organisation can provide. This meets the clients objective of providing information on a variety of ways to support parents. The information has been displayed in a similar way to the ‘Meet’ page to provide consistency to a user and familiarity with how they are able to consume the information and take action immediately i.e. visual aid, brief copy, web link, telephone number. 
 
-<screenshot>
+![get help](assets/readme/features/get-help-nav.png "get help links")
 
 
 ## Banner Image and Heading ##
 
 Every page of the website features a banner image underneath the universal nav bar with a clear heading and possible description of the page to make it clear where the user is on the site. It also provides uniformity and familiarity which is important for brand trust and engagement with the user. 
 
-<screenshot>
+![banner heading](assets/readme/features/heading-banner.png "banner heading")
 
 
 ## Features Left to Implement ##
 
-Unfortunately scope and skill set have not allowed for a booking system and blog to be featured in this version of the website. This static website is simply the MVP agree upon with the client with plans for further iterations in the future when scope and skill set allow. 
+Unfortunately scope and skill set have not allowed for a booking system and blog to be featured in this version of the website. This static website is simply the MVP agreed upon with the client with plans for further iterations in the future when scope and skill set allow. 
 
 # Bugs #
 
@@ -157,7 +154,7 @@ Bootstrap was used to assist with the responsiveness and styling of the website.
 Hover.css was used on the Social Media icons in the footer to add the colour transition while being hovered over.
 
 ## Google Fonts: ##
-Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+Google fonts were used to import the 'Gloock' and 'Cabin' font into the style.css file which is used on all pages throughout the project.
 
 ## Font Awesome: ##
 Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
@@ -176,10 +173,75 @@ Balsamiq was used to create the wireframes during the design process.
 
 
 # Testing #
-##Lighthouse
-Use grids to display info
-##Validator Testing
 
+## Responsiveness ##
+I have tested the site on the following devices, some live and some using Chrome Developer Tools and these are my findings followed by screenshots for visual representation...
+
+![responsiveness testing](assets/readme/responsiveness/responsiveness-table.png "responsiveness testing")
+
+### Apple Mac ###
+
+![apple mac](assets/readme/responsiveness/apple-mac.png "apple mac")
+
+### Ipad Pro ###
+
+![ipad pro](assets/readme/responsiveness/ipad-pro.png "ipad pro")
+
+### Iphone 6/7 ###
+
+![iphone](assets/readme/responsiveness/iphone.png "iphone")
+
+### Kindle Fire ###
+
+![kindle fire](assets/readme/responsiveness/kindle.png "kindle fire")
+
+### Pixel 5 ###
+
+![pixel 5](assets/readme/responsiveness/pixel-5.png "pixel 5")
+
+### Surface Pro 7 ###
+
+![surface pro](assets/readme/responsiveness/surface-pro-7.png "surface pro")
+
+## Browser Compatability ##
+I tested the following browsers using my Apple Mac...
+
+![browser testing](assets/readme/browser-testing.png "browser testing")
+
+## Lighthouse ##
+
+
+## Code Validation ##
+
+I have used an HTML and CSS code validator to validate my work and the results are as follows...
+
+### Home Page ###
+![index.html validation result](assets/readme/validation/index.png "Index.html")
+
+### Meet Page ###
+![meet.html validation result](assets/readme/validation/meet.png "meet.html")
+
+### Get Help Page ###
+![gethelp.html validation result](assets/readme/validation/gethelp.png "get help.html")
+
+### Connect Page ###
+![connect.html validation result](assets/readme/validation/connect.png "connect.html")
+
+### Form Response Page ###
+![thankyou.html validation result](assets/readme/validation/thankyou.png "thankyou.html")
+
+### Style Sheet ###
+![style.css validation result](assets/readme/validation/style-sheet.png "style.css")
+
+## User Stories ##
+I have reviewed my initial intentions and agreements with the client about the user stories and they have been fulfilled as follows...
+
+![user story testing](assets/readme/user-story-testing.png "user story testing")
+
+## Features ##
+The key technical features of the site have been tested and findings are as follows...
+
+![feature testing](assets/readme/feature-testing.png "feature testing")
 
 # Deployment #
 
@@ -214,7 +276,7 @@ This can be done by following these steps...
 ## Making a Local Clone ##
 1. Log in to GitHub and find the GitHub Repository titled "Mama Collective".
 
-2. Click the "Clone or download" button.
+2. Click the "Clone or Download" button.
 
 # Credits #
 
