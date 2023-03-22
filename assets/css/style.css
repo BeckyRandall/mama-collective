@@ -233,4 +233,11 @@ footer button {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 10px;
+}
+
+@media (min-width: 500px) {
+  .footer-mailing-break{
+    display: none;
+  }
 }
