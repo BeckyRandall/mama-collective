@@ -54,7 +54,7 @@ As a Frequent Visitor to the site, I want users to feel able to rely on the bran
 ## Colour Scheme ##
 The four main colours are Akora, Black Marlin, Dallas and Shadow
 
-![color scheme visual](assets/readme/features/color-guide.jpeg "color-guide.jpeg")
+![color scheme visual](assets/readme/features/color-guide.jpg "color-guide.jpeg")
 
 ## Typography ##
 
@@ -77,7 +77,7 @@ Using Balsamiq I created wireframes for the main pages I intended to build to gi
 
 The navigation bar will feature on each and every page of the site and read from left to right starting with the organisations logo to reinforce brand identity and ideally authority. The nav bar will provide user friendly navigation and offer the same order of links on each page starting with the home to be displayed to the right of the logo. It will allow the user to access all pages from wherever they are in the site without using their browsers ‘back’ button.
 
-![nav bar](assets/readme/features/nav-bar-burger-menujpeg "index.html")
+![nav bar](assets/readme/features/nav-bar-burger-menu.jpg "index.html")
 
 ## Footer ##
 
@@ -210,6 +210,13 @@ I tested the following browsers using my Apple Mac...
 
 ## Lighthouse ##
 
+![lighthouse testing](assets/readme/lighthouse/connect.png "connect testing")
+
+![lighthouse testing](assets/readme/lighthouse/gethelp.png "get help testing")
+
+![lighthouse testing](assets/readme/lighthouse/index.png "home page testing")
+
+![lighthouse testing](assets/readme/lighthouse/meet.png "meet testing")
 
 ## Code Validation ##
 
