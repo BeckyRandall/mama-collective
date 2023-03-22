@@ -40,7 +40,6 @@ p {
   }
 }
 
-
 /*--------------Hero Image and Title------------------*/
 
 #hero-image {
@@ -191,6 +190,7 @@ footer {
   height: 170px;
   background-color: #DACBB4;
   font-family: 'Cabin', sans-serif;
+  box-shadow: 0 50vh 0 50vh #DACBB4;
 }
 
 .socials {
