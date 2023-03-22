@@ -168,6 +168,11 @@ a[href]:hover {
   margin: 30px;
 }
 
+.form-group {
+  max-width: 600px;
+  margin: auto;
+}
+
 form button {
   border: none;
   border-radius: 20px;
@@ -177,6 +182,11 @@ form button {
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 10px;
+}
+
+form label {
+  margin-top: 10px;
 }
 
 /*--------------Mama Manifesto Page------------------*/
